@@ -31,7 +31,7 @@ div.headSection{
 	border: thick solid #000000;
 	padding: 20px;
 	width:80%;
-	height: 60%;
+	height: 50%;
 }
 
 i{
@@ -39,12 +39,11 @@ i{
 }
 
 div.linkBar{
-	width: 75%;
-	height: 60px;
+	width: 80%;
+	height: 20%;
 	background-color: #D3D3D3;
 	border: 5px solid #000000;
 	display: flex;
-	flex: 1;
 	align-items: center;
 	font-size: 20px;
 	justify-content: space-around;
@@ -91,19 +90,6 @@ img{
 	display:flex;
 	justify-content: center;
 	align-items: center;
-}
-
-div.hero-content{
-	z-index:2;
-	position: absolute;  
-    left: 50%;
-    top: 50%;                         
-    transform: translate(-50%, -50%);
-}
-
-div.image{
-	display:flex;
-	background-color:rgb(255,255,255);
-	width: 120%;
-	justify-content:flex-end;
+	border: thick solid #ffffff;	
+	width: 100%;
 }
