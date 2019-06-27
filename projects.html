@@ -3,93 +3,109 @@
 
 <head>
 	<title>Russell Waterhouse</title>
-	<link 	href="C:\Users\Owner\Desktop\Website\css\style.css"
+	<link 	href="css\style.css"
 		type="text/css"
 		rel="stylesheet"/>
 </head>
 
 
 <body>
-	<img class = "background" src="C:\Users\Owner\Desktop\Website\photos\abstract-curves-led-1944.jpg"> 
+	<img class = "background" src="photos\abstract-curves-led-1944.jpg"> 
 	<div class = "navigationBar">
 		<h2 id = "leftTitle">Russell Waterhouse</h2>
 		<h2>
-			<a class = "navLink" href="C:\Users\Owner\Desktop\Website\about me.html">About Me</a>
-			<a class = "navLink" href="C:\Users\Owner\Desktop\Website\skills.html">Skills</a>
-			<a class = "navLink" href="C:\Users\Owner\Desktop\Website\work experience.html">Experience</a>
-			<a class = "navLink" href="C:\Users\Owner\Desktop\Website\projects.html">Projects</a>
+			<a class = "navLink" href="index.html">About Me</a>
+			<a class = "navLink" href="skills.html">Skills</a>
+			<a class = "navLink" href="work experience.html">Experience</a>
+			<a class = "navLink" href="projects.html">Projects</a>
 		</h2>
 	</div>
 
-
-
-	
-<div class = "mainBody">
-	<div class = "borderedPageSection" id = "purple">
-		<h2>Past Projects</h2>
+	<div class = "col_M" id = "yellow">
 		<hr/><hr/>
-		
-<!--beaver Valley Feeds Website -->
-		<h3>Beaver Valley Feeds Website</h3>
-		<p>I am the sole designer and builder of <a href = "https://www.beavervalleyfeeds.com">beavervalleyfeeds.com</a>,
-		which attracts a new demographic of customers to my former employer. This website was built with the 
-		help of wix.com, and is my first website.</p>
-		<hr/>
+		<h2>Past Projects</h2>
+		<hr/><hr/>		
+	</div>	
 	
-<!-- website section -->
-		<h3>This website</h3>
-		<p>This website has been designed and built from scratch with my knowledge of HTML5 and CSS3, and is my second website. This is the first Version of the website,
-		last updated on September 30, 2018. Further updates are already in progress. While the current version does not use any javascript or plug-ins, they will be 
-		incorporated into future versions. It will be updated as I complete more projects, learn more skills, and have new design ideas for the website.
-		</p>
-		<hr/>	
+	<div class="col_1-3" id="green">
+	<!--beaver Valley Feeds Website -->
+		<div class = "col_1P" >
+			<h3>Beaver Valley Feeds Website</h3>
+			<img class = "smallPhoto" src = "photos\beavervalley.jpg" />					
+			<p>I am the sole designer and builder of <a href = "https://www.beavervalleyfeeds.com">beavervalleyfeeds.com</a>,
+			which attracts a new demographic of customers to my former employer. This website was built with the 
+			help of wix.com, and is my first website. The website was designed solely with the customer in mind, as both new customers and 
+			those that hae been clients for years had to be thought of, hence the simple, informative design with an emphasis on easy-to-use
+			navigation and eye catching photography. Feel free to follow the link above and browse around my work!</p>
+		</div>
+			
+	<!--robot section-->
+		<div class = "col_2P" id = "grey">
+			<h3>Robot Project 2018</h3>
+			<img class = "smallPhoto" src = "photos/robot slant view.jpg"/>		
+			<p>In ENGR120, a team of three was required to build a working model for an autonomous 
+			undersea cable-laying robot (shown above). The objective was for the robot to take a cable from a spool and take it to a beacon, where it had to be 
+			attached. In my group, I was the team leader and main programmer. The entire project used 
+			<a href = "https://www.vexrobotics.com/276-2194.html">VEX microcontrollers,</a> and was coded in a variant of C. Our project did so well that we received 
+			an A for the project and were invited to the Uvic Robotics competition, which we did compete in. The whole project was designed and developed from January 
+			to March 2018. This project inspired me to start a robot project of my own, which I am currently working on with a colleague. I look forward to the future 
+			experience that I hope to gain in this field.  		
+			</p>
+		</div>
 		
-<!--robot section-->
-		<h3>Robot Project 2018</h3>
-		<img id = "smallPhoto" src = "C:\Users\Owner\Documents\University\ENGR120\robot slant view.jpg"/>		
-		<p>In one of my classes, a team of three was required to build a working model for an autonomous 
-		undersea cable-laying robot (shown on the right). The objective was for the robot to take a cable from a spool and take it to a beacon, where it had to be 
-		attached. In my group, I was the team leader and main programmer. This gave me plenty of experience in programming microcontrollers. 
-		The entire project used <a href = "https://www.vexrobotics.com/276-2194.html">VEX microcontrollers,</a> and was coded in a variant of C, which is were I learned to
-		write complex programs in C. Our project did so well that we received an A for the project and were invited to the Uvic Robotics competition, which we did 
-		compete in. The whole project was designed and developed from January to March 2018. This project inspired me to start a robot project of my own, which 
-		I am currently working on with a colleague. I look forward to the future experience that I hope to gain in this field.  		
-		</p>
+		<!-- website section -->
+		<div class = "col_3P" >
+			<h3>This website</h3>
+			<img class="smallPhoto" src = "webDesign.PNG"/>
+			<p>This website has been designed and built from scratch with my knowledge of HTML5 and CSS3, and is my second website. This is the first Version of the website,
+			last updated on September 30, 2018. Further updates are already in progress. While the current version does not use any javascript or plug-ins, they will be 
+			incorporated into future versions. It will be updated as I complete more projects, learn more skills, and have new design ideas for the website.
+			</p>
+		</div>
 	</div>
-	
-	<div class = "borderedPageSection" id = "purple">
+
+	<div class = "col_M" id = "yellow">
+		<hr/><hr/>
 		<h2>Current Projects</h2>
 		<hr/><hr/>
+	</div>	
 <!-- app project secion-->
+	<div class = "col_MP" id = "grey">
 		<h3>Degree Planning App</h3>
 		<p>To gain experience in Java and in mobile app development, I am working with a colleague to build an
-		app that helps you plan out your degree. It will have features that enable yearly class planning, GPA 
-		calculating, and semester planning with ease. It is currently under development. No version is currently available to the public, but below are 
-		some concept sketches of what the finished product will look like.
+		app that helps you plan out your degree. Planning what courses to take and when to take them is a headache that every student knows, and this is going to be 
+		a tool to help alleviate some of that pain! It will have features that enable yearly class planning, GPA 
+		calculating, and semester planning with ease. It is currently under development. No version is currently available to the public, but below are some screenshots of
+		the testing version. Currently, we have a basic GUI and navigation system, and we are using dynamic arrays to store data from the user. The current version relies on the user
+		to find their required courses and the semsesters that they are regularly offered, however the end goal is to work with some universities so that the information would
+		already be in a database and the user could simply access that, instead of finding and entering that information.
 		</p>
-		<div class = "imageBox">
-			<p>This is going to be the page where users enter their required courses</p>	
-			<img id = "smallAppPhoto" src = "C:\Users\Owner\Desktop\Website\photos\Main.jpg"/>
-			<p>This is going to be the home page</p>
-			<img id = "smallAppPhoto" src = "C:\Users\Owner\Desktop\Website\photos\addCourse.jpg"/>
+		<div class = "col_1P">
+			<p>This is going to be the page that the user currently sees when they open the app</p>	
+			<img id = "smallAppPhoto" src = "photos\Main.jpg"/>
 		</div>
-		<hr/>
+		<div class = "col_3P">
+			<p>This is the page that allows the user to put information into the app about the courses he or she is required to take.</p>
+			<img id = "smallAppPhoto" src = "photos\addCourse.jpg"/>
+		</div>
+	</div>
 		
 <!--beverage fetching robot section-->
+	<div class = "col_MP" id = "green">
 		<h3>Beverage fetching robot</h3>
 		<p>To work more with robotics, embedded systems, microprocessors and microcontrollers, I am designing, programming, and building an autonomous arduino-based robot.
-		The first iteration is planned to be a line following robot which will bring cold drinks from a despensor to the user. It was inspired by my grandfather, who 
-		due to his age, is less and less willing to get up from his chair and get his nightly cola. 
-		</p>
-		<hr/>		
+		The first iteration is planned to be a line following robot which will bring cold drinks from a despensor to the user. We are just in the preliminary design 
+		stages right now, so I cannot make any comment on specifics of the chassis, sensors, or circuitry. However, we have made final decisions about using an 
+		<a href = "https://store.arduino.cc/usa/arduino-uno-rev3">Arduino Uno</a>
+		The idea for it was inspired by my grandfather, who due to his age, is less and less willing to get up from his chair and get his nightly cola. 
+		</p>	
 	</div>
-
-	<div class = "borderedPageSection" id = "purple">
+<
+	<div class = "col_M" id = "yellow">
 		<h2>Future Projects</h2>
 		<hr/><hr/>
 		<h3>Have a Recommendation for a project? Contact me <a href="mailto:Russell.L.Waterhouse@gmail.com">today!</a></h3> 
 	</div>
-</div>
-
+	
 </body>
 </html>

@@ -140,16 +140,36 @@ img{
 
 #yellow{
 	background-color: #f1f75b;
+	border-bottom: 15px solid green;
+	border-top: 15px solid green;
 }
 
 #grey{
 	background-color: rgb(200, 200, 200);
 }
 
+#white{
+	background-color: #ffffff;
+}
+
+#black{
+	background-color: #000000;
+	color:#ffffff;
+}
+
+#darkgreen{
+	background-color: #465f51;
+	border-bottom: 15px solid green;
+	border-top: 15px solid green;
+}
 
 
 
 
+div{
+	opacity: 1.0;
+	filter: alpha(opacity=100);	
+}
 
 div.navigationBar{
 	position:fixed;
@@ -196,10 +216,34 @@ div.col_2{
 }
 
 div.col_3{
-	float: left;
+	float: right;
 	position: relative;
 	width: 33%;
 	height: 100%;
+}
+
+div.col_1P{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 28%;
+	padding: 3%;	
+}
+
+div.col_2P{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 27%;
+	padding: 3%;	
+}
+
+div.col_3P{
+	float: right;
+	position: relative;
+	width: 27%;
+	height: 100%;
+	padding: 3%;	
 }
 
 div.col_1-2{
@@ -207,7 +251,6 @@ div.col_1-2{
 	float: left;
 	height: 100%;
 	width: 67%;
-	background-color: #ffffff;
 }
 
 div.col_1-3{
@@ -216,18 +259,57 @@ div.col_1-3{
 	height: 100%;
 	width: 100%;
 	padding: 0%;
+	margin-top: 5%;
+}
+
+div.col_M{
+	position:relative;
+	float:left;
+	height:100%;
+	width: 80%;
+	left: 50%;
+    top: 50%;                   
+	margin-bottom:15px;
+	margin-top:15px;
+    transform: translate(-50%, 0%);	
+}
+
+div.col_MP{
+	position:relative;
+	float:left;
+	height:100%;
+	width: 80%;
+	left: 50%;
+    top: 50%;                   
+	margin-bottom:15px;
+	margin-top:15px;
+    transform: translate(-50%, 0%);	
+	padding: 3%;
+}
+
+.smallPhotoL{
+	width : 200px;
+	height: 180px;
+	position: relative;
+	left: 8%;
 }
 
 .smallPhoto{
 	width : 200px;
-	height: 200px;
-	float: left;
-	margin-left: 10px;
+	height: 180px;
+	position: relative;
+	left: 18%;
 }
 
 div.inlineDisplay{
 	display: inline-block;
 	position: relative;
+}
+
+div.staticBlock{
+		display: static;
+		height: 100%;
+		width: 100%;
 }
 
 body{
@@ -242,4 +324,5 @@ body{
 #translucent{
 	opacity: 0.8;
 	filter: alpha(opacity=80);
+	background-color: #ffffff;
 }
