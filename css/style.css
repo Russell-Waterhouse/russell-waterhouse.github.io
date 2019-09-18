@@ -114,39 +114,16 @@ img{
 	width: 100%;
 }
 
-#green{
-	background-color: #CCCCCC;	
-}
-
-#red{
-	background-color: #f7685b;
+#grey{
+	background-color: rgb(200, 200, 200);
 }
 
 #blue{
 	background-color: #3A7CA5;
 }
 
-#purple{
-	background-color: #d97de8;
-}
-
-#yellow{
-	background-color: #f1f75b;
-	border-bottom: 15px solid green;
-	border-top: 15px solid green;
-}
-
-#grey{
-	background-color: rgb(200, 200, 200);
-}
-
-#white{
-	background-color: #ffffff;
-}
-
-#black{
-	background-color: #000000;
-	color:#ffffff;
+#invisible{
+	background-color: #ccddff;
 }
 
 #darkgreen{
