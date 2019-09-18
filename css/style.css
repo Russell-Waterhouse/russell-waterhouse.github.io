@@ -13,16 +13,7 @@ div.borderedPageSection{
 	padding: 1%;
 }
 
-div.mediumElement{
-	display:flex;
-	flex-direction:horizontal;
-	justify-content: space-between;
-}
-
-div.smallElement{
-	width: 25%;
-	margin: 10px;
-}
+/*****************************************************************************************************************************************/
 
 div.headSection{
 	position: absolute;  
@@ -40,7 +31,7 @@ div.headSection{
 }
 
 i{
-	color:#00bbdd;
+	color:#3A7CC5;
 }
 
 #smallAppPhoto{
@@ -95,6 +86,7 @@ h2{
 	font-family: verdana;
 	text-align: center;
 	font-size: 40px;
+	margin-bottom: 15px;
 }
 
 h3{
@@ -123,7 +115,7 @@ img{
 }
 
 #green{
-	background-color: #b4ffbe;	
+	background-color: #CCCCCC;	
 }
 
 #red{
@@ -176,10 +168,10 @@ div.navigationBar{
 	top:0%;
 	left:0%;
 	width:100%;
-	height:100px;
-	background-color: #465f51;
-	border-bottom: 15px solid green;
-	border-top: 15px solid green;
+	height:130px;
+	background-color: #3A7CA5;/*#ffBf88;*/
+	border-bottom: 6px solid #444444;
+	border-top: 6px solid #444444;
 	z-index:10;
 }
 
@@ -313,7 +305,8 @@ div.staticBlock{
 }
 
 body{
-	padding-top: 115px;
+	padding-top: 135px;
+	background-color: #ccddff;	
 }
 
 #leftTitle{
@@ -321,7 +314,14 @@ body{
 	margin-left: 3%;
 }
 
-#translucent{
+#tagline{
+	float: left;
+	margin-left: 3%;
+	color: #FF3C2E;
+	margin-top: 0px;
+}
+
+#translucent{/*depricated*/
 	opacity: 0.8;
 	filter: alpha(opacity=80);
 	background-color: #ffffff;
