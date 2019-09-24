@@ -13,31 +13,8 @@ div.borderedPageSection{
 	padding: 1%;
 }
 
-/*****************************************************************************************************************************************/
-
-div.headSection{
-	position: absolute;  
-    left: 50%;
-    top: 50%;                         
-    transform: translate(-50%, -50%);	
-	background-color:#00bbdd;
-	display:flex;
-	justify-content: center;
-	align-items: center;	
-	flex-direction:column;	
-	padding: 20px;
-	width:80%;
-	height: 60%;
-}
-
 i{
 	color:#3A7CC5;
-}
-
-#smallAppPhoto{
-	width : 300px;
-	height: 500px;
-	margin-left: 3%;
 }
 
 #smallPhoto_over{
@@ -46,14 +23,6 @@ i{
 	position: absolute;
 	margin-left: 60%;
 	
-}
-
-
-
-div.imageBox{
-	display:flex;
-	justify-content: space-between;
-	padding-left: 3%;
 }
 
 div.linkBar{
@@ -122,18 +91,11 @@ img{
 	background-color: #3A7CA5;
 }
 
-#invisible{
-	background-color: #ccddff;
-}
-
 #darkgreen{
 	background-color: #465f51;
 	border-bottom: 15px solid green;
 	border-top: 15px solid green;
 }
-
-
-
 
 div{
 	opacity: 1.0;
@@ -275,12 +237,6 @@ div.inlineDisplay{
 	position: relative;
 }
 
-div.staticBlock{
-		display: static;
-		height: 100%;
-		width: 100%;
-}
-
 body{
 	padding-top: 135px;
 	background-color: #ccddff;	
@@ -296,10 +252,4 @@ body{
 	margin-left: 3%;
 	color: #FF3C2E;
 	margin-top: 0px;
-}
-
-#translucent{/*depricated*/
-	opacity: 0.8;
-	filter: alpha(opacity=80);
-	background-color: #ffffff;
 }
