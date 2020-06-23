@@ -8,7 +8,89 @@ AccentDark: #E76D83
 #
  */
  
- p{
+ 
+/*************************************************
+ *
+ * Generic element styles
+ *
+ *************************************************/
+
+p{
 	color: #393D3F;
   font-family: verdana;
 }
+
+body{
+  background-image: url("../photos/background_pattern.jpeg");
+  padding: 5px;
+}
+
+
+
+/*************************************************
+ *
+ * Logo styles
+ *
+ *************************************************/
+.Logo{
+  position:fixed;
+	top:5px;
+	left:3%;
+	width:90%;
+	height:130px;
+	background-color: #C2EABD;
+	border: 6px solid #C98CA7;
+  padding-left: 35px;
+}
+
+.Logo h2{
+  color: #E76D83;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.Logo h3{
+  color: #C98CA7;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+
+
+
+
+/*************************************************
+ *
+ * Navigation styles
+ *
+ *************************************************/
+.navigation{
+  position: fixed;
+  top: 165px; 
+  left: 3%;
+  width: 250px;
+  background-color: #DCF2B0;
+  border: 6px solid #C98CA7;
+}
+
+.navigation ul{
+  list-style: none;
+}
+
+.navigation li{
+  margin:13px;
+	text-decoration:none;
+  font-size: 35px;
+  color: #393D3F
+}
+
+.navigation a{
+   text-decoration: none;
+}
+
+.navigation li:hover{
+  background-color:#C2EABD;
+	color:#C98CA7;
+}
+
+
