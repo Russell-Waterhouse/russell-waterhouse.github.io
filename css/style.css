@@ -4,6 +4,10 @@ body{
 	background-color: #ccddff;	
 }
 
+html {
+    height: 100%;
+}
+
 i{
 	color:#3A7CC5;
 }
