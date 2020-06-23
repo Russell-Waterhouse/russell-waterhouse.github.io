@@ -1,0 +1,14 @@
+/*
+color palette 
+Primary:#DCF2B0
+Primary dark: #C2EABD
+Text: #393D3F
+Accent: #C98CA7
+AccentDark: #E76D83
+#
+ */
+ 
+ p{
+	color: #393D3F;
+  font-family: verdana;
+}
