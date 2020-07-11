@@ -1,11 +1,10 @@
 /*
 color palette 
-Primary:
+Primary: #DCF2B0
 Primary dark: #C2EABD
 Text: #393D3F
-Accent: #C98CA7
-AccentDark: #E76D83
-#
+Accent: #F87060 
+AccentDark: #F86624 
  */
  
  
@@ -30,7 +29,7 @@ img{
 }
 
 i{
-  color: #E76D83;
+  color: #F86624;
 }
 
 h2{
@@ -51,18 +50,18 @@ h2{
 	width:90%;
 	height:130px;
 	background-color: #C2EABD;
-	border: 6px solid #C98CA7;
+	border: 6px solid #F87060;
   padding-left: 50px;
 }
 
 .Logo h2{
-  color: #E76D83;
+  color: #F86624;
   font-size: 40px;
   margin-bottom: 0px;
 }
 
 .Logo h3{
-  color: #C98CA7;
+  color: #F87060;
   font-size: 30px;
   margin-top: 0px;
 }
@@ -82,7 +81,7 @@ h2{
   left: 3%;
   width: 250px;
   background-color: #DCF2B0;
-  border: 6px solid #C98CA7;
+  border: 6px solid #F87060;
 }
 
 .navigation ul{
@@ -102,7 +101,7 @@ h2{
 
 .navigation li:hover{
   background-color:#C2EABD;
-	color:#C98CA7;
+	color:#F87060;
 }
 
 
@@ -120,7 +119,7 @@ h2{
   padding: 5px;
   color: #393D3F;
 /*  background-color: #DCF2B0;
-  border: 6px solid #C98CA7;*/
+  border: 6px solid #F87060;*/
 }
 
 .column{
