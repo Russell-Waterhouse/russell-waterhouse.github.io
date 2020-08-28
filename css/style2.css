@@ -1,10 +1,11 @@
 /*
 color palette 
-Primary: #DCF2B0
-Primary dark: #C2EABD
+Primary: #B1CCE7
+Primary dark: #
 Text: #393D3F
-Accent: #F87060 
-AccentDark: #F86624 
+Accent: #F4EDEA
+AccentDark: #B80C09 
+Neutral: #C5D8D1
  */
  
  
@@ -20,7 +21,7 @@ p{
 }
 
 body{
-  background-image: url("../photos/background_pattern.jpeg");
+  background-image: url("../photos/background_pattern.jpg");
   padding: 5px;
 }
 
@@ -29,7 +30,7 @@ img{
 }
 
 i{
-  color: #F86624;
+  color: #B80C09;
 }
 
 h2{
@@ -49,19 +50,19 @@ h2{
 	left:3%;
 	width:90%;
 	height:130px;
-	background-color: #C2EABD;
-	border: 6px solid #F87060;
+	background-color: #B1CCE7;
+	border: 6px solid #B80C09;
   padding-left: 50px;
 }
 
 .Logo h2{
-  color: #F86624;
+  color: #B80C09;
   font-size: 40px;
   margin-bottom: 0px;
 }
 
 .Logo h3{
-  color: #F87060;
+  color: #000000;
   font-size: 30px;
   margin-top: 0px;
 }
@@ -80,8 +81,8 @@ h2{
   top: 165px; 
   left: 3%;
   width: 250px;
-  background-color: #DCF2B0;
-  border: 6px solid #F87060;
+  background-color: #B1CCE7;
+  border: 6px solid #B80C09;
 }
 
 .navigation ul{
@@ -100,8 +101,8 @@ h2{
 }
 
 .navigation li:hover{
-  background-color:#C2EABD;
-	color:#F87060;
+  background-color:#eeeeee;
+	color:#111111;
 }
 
 
@@ -118,8 +119,8 @@ h2{
   margin-right: 30px;
   padding: 5px;
   color: #393D3F;
-/*  background-color: #DCF2B0;
-  border: 6px solid #F87060;*/
+/*  background-color: #B1CCE7;
+  border: 6px solid #B80C09;*/
 }
 
 .column{
