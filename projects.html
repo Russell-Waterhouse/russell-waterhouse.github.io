@@ -3,105 +3,156 @@
 
 <head>
 	<title>Russell Waterhouse</title>
-	<link 	href="css\style.css"
+	<link 	href="css\style2.css"
 		type="text/css"
 		rel="stylesheet"/>
 </head>
 
-
 <body>
-	
-	<div class = "navigationBar">
-		<h2 id = "leftTitle"><span style="color: #FF3C2E;">Russell</span> Waterhouse</h2>
-		<h2>
-			<a class = "navLink" href="index.html">About Me</a>
-			<a class = "navLink" href="skills.html">Skills</a>
-			<a class = "navLink" href="work experience.html">Experience</a>
-			<a class = "navLink" href="projects.html"><span style="color: #ffffff;">Portfolio</span></a>
-		</h2>
-		<h3 id = "tagline">Constantly striving to create the Best</h3>
-	</div>
-	
+<!-- Logo -->    
+    <div class="Logo">
+      <h2>Russell Waterhouse</h2>
+      <h3>Constantly striving to create the best</h3>
+    </div>
 
-	<div class = "col_M">
-		<hr/><hr/>
-		<h2>Past Projects</h2>
-		<hr/><hr/>		
-	</div>	
-	
-	<div class="col_1-3">
-	<!--beaver Valley Feeds Website -->
-		<div class = "col_1P primary_colour" >
-			<h3>Beaver Valley Feeds Website</h3>
-			<img class = "smallPhoto" src = "photos\beavervalley.jpg" />					
-			<p>I am the sole designer and builder of <a href = "https://www.beavervalleyfeeds.com">beavervalleyfeeds.com</a>,
-			which attracts a new demographic of customers to my former employer. This website was built with the 
-			help of wix.com, and is my first website. The website was designed solely with the customer in mind, as both new customers and 
-			those that hae been clients for years had to be thought of, hence the simple, informative design with an emphasis on easy-to-use
-			navigation and eye catching photography. Feel free to follow the link above and browse around my work!</p>
-		</div>
-			
-		<!--Course planner project-->
-		<div class = "col_2P accent_colour">
-			<h3>Degree Planning App</h3>
-			<p>To gain experience in Java and in mobile app development, I have completed an app that helps students plan their degree. It is currently available on the app store 
-			<a href="https://play.google.com/store/apps/details?id=ca.russell_waterhouse.degreeplanner">here</a>. Planning what courses to take and when to take them is a headache 
-			that every student knows, and this is a tool to help alleviate some of that pain! The current version only supports the most basic class planning, but you can be certain
-			that I am working on an update to offer the best product possible to my peers. It will have features that enable yearly class planning, GPA 
-			calculating, and semester planning with ease. The current version uses java as the source language (for more about my escapades with Kotlin, see the current projects 
-			section below). I have implemented many of the new android architecture components, such as the new Room Persistence Library and ViewModel class. 
-			</p>
-		</div>
-		
-		<!-- website section -->
-		<div class = "col_3P primary_colour" >
-			<h3>This website</h3>
-			<img class="smallPhoto" src = "photos/webDesign.PNG"/>
-			<p>This website has been designed and built from scratch with my knowledge of HTML5 and CSS3, and is my second website. This is the first Version of the website,
-			last updated on June 28, 2019. Further updates are already in progress. While the current version does not use any javascript or plug-ins, they will be 
-			incorporated into future versions. It will be updated as I complete more projects, learn more skills, and have new design ideas for the website.
-			</p>
-		</div>
-	</div>
-		<div class = "col_1P accent_colour">
-			<h3>Robot Project 2018</h3>
-			<img class = "smallPhoto" src = "photos/robot slant view.jpg"/>		
-			<p>In ENGR120, a team of three was required to build a working model for an autonomous 
-			undersea cable-laying robot (shown above). The objective was for the robot to take a cable from a spool and take it to a beacon, where it had to be 
-			attached. In my group, I was the team leader and main programmer. The entire project used 
-			<a href = "https://www.vexrobotics.com/276-2194.html">VEX microcontrollers,</a> and was coded in a variant of C. Our project did so well that we received 
-			an A for the project and were invited to the Uvic Robotics competition, which we did compete in. The whole project was designed and developed from January 
-			to March 2018. This project inspired me to start a robot project of my own, which I am currently working on with a colleague. I look forward to the future 
-			experience that I hope to gain in this field.  		
-			</p>
-		</div>
-	<div class = "col_M" id = "yellow">
-		<hr/><hr/>
-		<h2>Current Projects</h2>
-		<hr/><hr/>
-	</div>	
+<!-- Navigation -->
+    <div class="navigation">
+      <ul>
+        <li><a href="testing.html">About Me</a></li>
+        <!-- TODO: update name of testing.html -->
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="work experience.html">Work Experience</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </div>
+      
+      <!-- main contents -->
+    <div class="main_contents column">
+      <div class="column">  
+        <h2>Mobile App Projects</h2>
+        <hr/><hr/>
+        <!-- Hack the code project -->
+        <div class="column">
+          <div class="column left">
+            <h3>Hack the Code Brain Teaser Game</h3>
+            <p>I built this little game in the spring of 2020, and it is availabe for download 
+            <a href="https://play.google.com/store/apps/details?id=ca.russell_waterhouse.hackthecode">here.</a>
+            The goal of the game is to guess the phrase that has been scrambled by an encoding algorithm. Each wrong guess shows you how it would have been scrambled using the 
+            same algoritm.
+            
+            <br/><br/>I wrote the app in <i>Kotlin</i>, and used more advanced techniques and design patterns, such as dependency injection using the <i>Dagger Library</i> 
+            to make testing UI components easier. 
+            
+            <br/><br/>During this project, I also experimented with various software development techniques, such as <i>Test Driven Development (TDD)</i>. While I did this primarily to  
+            expose me to new ways of looking at software development methods, I also think that it produced a more robust and stable end result.
+            
+            <br/><br/>Lastly, this project gave me a chance to implement some of the code readability and design patterns that I've been reading about in books 
+            like <a href="https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code</a> or 
+            <a href="https://www.amazon.ca/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=sr_1_1?crid=5O349WOZTWA2&dchild=1&keywords=head+first+design+patterns&qid=1598730657&s=books&sprefix=head+first%2Cstripbooks%2C211&sr=1-1">
+            Head First Design Patterns.</a> 
+            
+            <br/><br/>You can look at the source code <a href="https://github.com/Russell-Waterhouse/hack_the_code">here.</a>
+            </p>
+          </div>
+          <div class="column right">
+            <a href="https://play.google.com/store/apps/details?id=ca.russell_waterhouse.hackthecode">
+            <img src="photos\ic_launcher-web.png">
+            </a>
+          </div>
+        </div>  
+        <hr/>
+        
+        <!--Course planner project-->
+        <div class="column">
+          <div class="column left">
+            <h3>Degree Planning App</h3>
+            <p>Planning what courses to take and when to take them is a headache 
+            that every student knows, and this is a tool to help alleviate some of that pain!
+            <br/>It is currently available on the app store 
+            <a href="https://play.google.com/store/apps/details?id=ca.russell_waterhouse.degreeplanner">here</a>.
+            
+            The current version supports basic course planning, and inevitably I use it a few times every semester. When someone asks me when I am taking a course, I have the answer in 
+            the palm of my hand! If I receive an offer for a co-op extension, I can move things around and see if it sets me behind my studies in 5 minutes, 
+            and that's a job that used to take 3 hours! Of all the projects that I have worked on, this one has probably saved me the most time. 
+            
+            <br/><br/>This app was written in <i>Java,</i> and makes use of many of the new (or, new at the time) android architecture components, 
+            such as the new Room Persistence Library and ViewModel class. 
+            
+            <br/><br/>You can look at the source code <a href="https://github.com/Russell-Waterhouse/course_planner">here.</a>
+            </p>
+          </div>
+          <div class = "column right">
+            <a href="https://play.google.com/store/apps/details?id=ca.russell_waterhouse.degreeplanner">
+            <img src="photos\ic_launcher-web_1.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <h2>Website Projects</h2>
+        <hr/><hr/>
 
-		
-	<!--new app section-->
-	<div class = "col_MP" id = "green">
-		<h3>To-Do list app</h3>
-		<p>To work more with Kotlin, concurrency and UI Design,  I am designing and programming a to-do list app. Right now (September 19, 2010), I have the model completed 
-		(implemented with the <a href = "https://developer.android.com/topic/libraries/architecture/room">Room Persistence Library</a>). I am currently working on testing this. 
-		After I have tested and refactored the code for the model, I will do up the UI With a simple RecyclerView, and then work on making it visually stunning. My last 
-		app lacked any UI Design time, and this project is to be different. 
-		<br/>So far, I haven't written a single line of java code for the project, it has all been in Kotlin. By the end of this project, I hope to be proficient with programming
-		in Kotlin.
-		<br/>I know that this isn't a project that really shows off my creativity, but I believe in learning to walk before learning to run. I have several ideas for 
-		projects to work on that I want to do in Kotlin, but I need to learn the basics with the language first. 
-		</p>	
-	</div>
 
+        <!-- website section -->
+        <div class="column">
+          <div class="column left">
+            <h3>This website</h3>
+            <p>This website has been designed and built from scratch with my knowledge of <i>HTML5 and CSS3</i>. 
+            As a result of building this website, I have a portfolio online which doesn't cost me a cent, and a solid base of understanding of the basic technologies
+            of website development.
+            <br/><br/>You can look at the source code <a href="https://github.com/Russell-Waterhouse/discreet_payments_calculator">here.</a>
+            </p>
+            </div>
+            <div class="column right">
+              <a href="https://github.com/Russell-Waterhouse/russell-waterhouse.github.io">
+              <img src = "photos\webDesign.png"/>
+              </a>
+          </div>
+        </div>
+        <hr/>
+      <!--beaver Valley Feeds Website -->
+        <div class="column">
+          <div class="column left">
+            <h3>Beaver Valley Feeds Website</h3>
+            <p>I am the sole designer and builder of <a href = "https://www.beavervalleyfeeds.com">beavervalleyfeeds.com</a>,
+            which attracts a new demographic of customers to my employer. This website was built with the 
+            help of wix.com, and has been a useful tool for engaging with the public online. 
+            <br/><br/>It has proved especially valuable during the 
+            COVID-19 pandemic, where changes to policy needed to be announced quickly and to as many customers as possible. </p>
+          </div>
+          <div class="column right">
+            <a href="https://www.beavervalleyfeeds.com">
+            <img src="photos\beavervalley.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <h2>Other Projects</h2>
+        <hr/><hr/>
 
-	<div class = "col_M" id = "yellow">
-		<h2>Future Projects</h2>
-		<hr/><hr/>
-		<h3>Have a Recommendation for a project? Contact me <a href="mailto:Russell.L.Waterhouse@gmail.com">today!</a></h3> 
-	</div>
-	
+      <!--Net Present Value Calculator -->
+        <div class="column">
+          <div class="column left">
+            <h3>Net Present Value Calculator</h3>
+            <p>In my Economics class, we learned how to compare the net value of projects. There are formulas to use when trying to decide
+            whether to put month into a project that will pay $1000 tomorrow, or $100 a year for 10 years. I found these formulas so useful, 
+            that I made a command line app that does those calculations for you. 
+            <br/><br/>As a result of this project, I have a useful tool to use whenever I need to make
+            such calculations, which will save me both time and money when making financial decisions.
+            <br/><br/>This project was coded in <i>Python</i> for ease of readability. 
+            <br/><br/>You can look at the source code <a href="https://github.com/Russell-Waterhouse/discreet_payments_calculator">here.</a>
+            </p>
+          </div>
+          <div class="column right">
+            <a href="https://github.com/Russell-Waterhouse/discreet_payments_calculator">
+            <img src="photos\npv.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+		</div>	
 </body>
 </html>
