@@ -122,8 +122,6 @@ h3{
   margin-right: 30px;
   padding: 5px;
   color: #393D3F;
-/*  background-color: #B1CCE7;
-  border: 6px solid #B80C09;*/
 }
 
 .column{
@@ -136,6 +134,7 @@ h3{
 
 .right{
   width: 35%;
+  padding: 10px;
 }
 
 .main_contents ul {
